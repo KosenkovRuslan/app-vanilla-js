@@ -1,1 +1,1 @@
-# Development App With Vanilla JavaScript
+# Application Development With Native JavaScript
