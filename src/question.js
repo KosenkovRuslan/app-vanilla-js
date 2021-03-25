@@ -23,7 +23,7 @@ export class Question {
     return fetch(`https://app-vanilla-js-default-rtdb.firebaseio.com/questions.json?auth=${token}`)
       .then(response => response.json())
       .then(response => {
-        if (response && response.error) {
+        if (response &&response.error) {
           return `<p class="error">${response.error}</p>`
         }
 
